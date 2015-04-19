@@ -1,0 +1,10 @@
+include README.rst
+include LICENSE
+recursive-include bootstrap_admin_feincms *
+recursive-include bootstrap_admin_feincms/static *
+recursive-include bootstrap_admin_feincms/templates *
+
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.orig
+global-exclude *.rej
