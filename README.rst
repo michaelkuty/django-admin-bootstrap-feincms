@@ -1,9 +1,11 @@
 
 |PypiVersion| |Pypi|
 
-=======================================================
-FeinCMS Extension for Responsive Theme for Django Admin
-=======================================================
+======================================================
+FeinCMS Extension for Responsive Admin Bootstrap Theme
+======================================================
+
+Makes `FeinCMS <https://github.com/django-admin-bootstrap/django-admin-bootstrap-feincms>`_ usable with `Bootstrap Theme <https://github.com/django-admin-bootstrap/django-admin-bootstrap>`_.
 
 .. contents::
    :local:
@@ -30,7 +32,7 @@ Configuration
 
 .. code-block:: python
 
-    INSTALLED_APPS += ('bootstrap_admin_feincms')
+    INSTALLED_APPS += ('bootstrap_admin_feincms',)
 
 
 .. code-block:: bash
